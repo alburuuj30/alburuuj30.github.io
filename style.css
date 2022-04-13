@@ -2,7 +2,7 @@
 
 /* Style for body specifies a background color */
 body {
-	background-color: white;
+	width: 100%;
 }
 
 /* Style to create a fluid image */
@@ -15,13 +15,12 @@ img {
 /* Style for container centers the page and sets element width */
 #container {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /* Style for header specifies top margin, background color, rounded corners,and center aligns content */
 header {
 	text-align: center;
+	width: 100%;
 }
 
 /* Style for nav specifies text properties */
@@ -50,7 +49,7 @@ nav ul {
 
 /* Style for nav li specifies the background color, rounded corners, remove bullet style, and applies margins and padding for list items within navigation */
 nav li {
-	background-color: #2465ff;
+	background-color: #141414;
 	border-radius: 2em;
 	list-style-type: none;
 	margin: 0.3em;
@@ -83,12 +82,10 @@ nav li a {
 
 /* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
 main {
+	width: 100%;
 	display: block;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 1em;
-	margin-top: 0.5em;
-	padding: 1em;
-	border-radius: 2em 0 2em 0;
 	background-color: black;
 	opacity: 0.85;
 }
@@ -186,9 +183,11 @@ aside {
 
 	/* Style rule for video element. */
 	video {
-		border: 0.5em ridge #FFFFFF;
+
 		height: auto;
+		width: 500px;
 		max-width: 100%;
+
 	}
 
 	/* Style rule for social div */
@@ -273,6 +272,7 @@ aside {
 	/* Style specifies bottom padding for the section element */
 	section {
 		padding-bottom: 3em;
+		padding-left: 100px;
 	}
 
 	/* Style for h1 element within the section element */
@@ -376,12 +376,13 @@ aside {
 
 	/* Style specifies a width for container */
 	#container {
-		background-color: #00719e;
+		background-color: #0e0e0e;
 	}
 
 	/* Style to left align header */
 	header {
 		text-align: left;
+		padding-left: 50px;
 	}
 
 	/*Style rule for label element*/
@@ -429,7 +430,7 @@ aside {
 		margin-top: -7em;
 		margin-right: 3em;
 		margin-bottom: 0;
-		width: 65%;
+		width: 50%;
 	}
 
 	/* Style specifies margin and padding for the unordered list within the nav */
@@ -451,7 +452,7 @@ aside {
 	nav li a {
 		display: inline-block;
 		padding: 0.7em;
-		text-shadow: 0.2em 0.1em #3D3D35;
+
 	}
 
 	/* Style rules for psudo-classes */
@@ -460,21 +461,24 @@ aside {
 	}
 
 	nav li a:visited {
-		color: #CCCCFF;
+		color: #ffffFF;
 	}
 
 	nav li a:hover {
-		color: #9D9D93;
-		font-style: italic;
+		background-color: #e6c300;
+		border-radius: 50px;
+		color: #111111;
+
 	}
 
 	/* Style specifies border, box shadow, and margins for the main element */
 	main {
-		background-color: #ffffff;
+		background-color: #141414;
+		width: 100%;
 	}
 
 	main p {
-		color: #000000;
+		color: #ffffff;
 		margin-left: auto;
 		margin-right: auto;
 		width: 90%;
