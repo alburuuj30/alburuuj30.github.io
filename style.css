@@ -193,12 +193,15 @@ aside {
 	/* Style rule for social div */
 	#social {
 		float: right;
+		display: flex;
 		width: 20%;
 	}
+
 
 	/* Style rule for social media icons */
 	#social img {
 		padding: 0.5em;
+		width: 70px;
 	}
 
 	/* Style specifies clear and top margin properties for the main element. */
@@ -397,16 +400,19 @@ aside {
 	.btn {
 		margin-left: 12em;
 	}
+	.input{
+		color: #ffffff;
+	}
 
 	/*style rule for form element*/
 	form {
-		background-color: #FFFFFF;
+		
 		padding: 1em;
 	}
 
 	/*Style for form p*/
 	form p {
-		color: #000000;
+		color: #ffffff;
 	}
 
 	/* Style for main h2 element */
@@ -540,8 +546,15 @@ aside {
 		overflow: auto;
 	}
 
-	.foot>p {
+	.foot {
 		color: white;
+		display: flex;
+		flex-direction: row;
+		padding-left: 50px
+		
+	}
+	.kontak{
+		padding-left: 50px;
 	}
 
 	/* Style for main article h2 element */
